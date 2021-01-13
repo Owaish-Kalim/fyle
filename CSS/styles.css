@@ -24,6 +24,7 @@
     width:75px;
     padding: 5px 5px;
     margin:5px 0px 0px 5px;
+    color: #fff;
 }
 
 address {
@@ -78,7 +79,7 @@ body {
     position: absolute;
     top: 28px;
     left: 40px;
-    min-height: 300px;
+    min-height: 250px;
 } 
 
 .navbar-dark {
@@ -92,14 +93,14 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512dab; }
+  background: white; }
   .carousel .carousel-item {
-    height: 300px; }
+    height: 360px; }
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
-      min-height: 300px; }
+      min-height: 250px; }
 
 #carouselButton {
   right: 0px;

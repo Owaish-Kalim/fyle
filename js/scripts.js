@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#mycarousel').carousel({
-        interval: 4000
+        interval: 4000000
     });    // this is not working, whereas if we set the data-interval attribute in mycarousel div, its working!
     $('#carouselButton').click(function(){
         if($('#carouselButton').children('span').hasClass('fa fa-pause')){
