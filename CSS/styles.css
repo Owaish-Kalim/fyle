@@ -43,15 +43,41 @@ body {
     background: white;
 }
 
+.carousel-caption {
+    position: absolute;
+    right: 1%;
+    bottom: 38px;
+    left: 42%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
 .carousel-item {
-  height: 300px;
-  background-color: black;
+    height: 360px;
+    background-color: black;
+  }
+
+  .carousel.carousel-item {
+    height: 400px;
+}
+
+.carousel-control-prev {
+    left: 46%;
+    bottom: -80%;
+}
+
+.carousel-control-next {
+    right: 49%;
+    bottom: -80%;
 }
 
 .carousel-item img {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 28px;
+    left: 40px;
     min-height: 300px;
 } 
 

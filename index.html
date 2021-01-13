@@ -9,30 +9,34 @@
 
     <!-- Bootstrap CSS -->
    <!-- build:css css/main.css -->
-   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"> -->
    <link href="CSS/styles.css" rel="stylesheet">
    <!-- endbuild -->
     <title>Fyle</title>
     <style>
-        #more {display: none;}
+       #mor1,#mor {display: none;}
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top"> 
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top bg-white"> 
         <div class="container"> 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"> 
                 <span class="navbar-toggler-icon">  </span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/urn.png" height="32" width="197"></a>
+            <a class="navbar-brand mr-auto" href="#"><img src="img/urn.png" height="32" width="197"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"> <a class="nav-link" href="#" style="color:black"><span class="fa fa-home fa-lg"></span> Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="./aboutus.html" style="color:black"><span class="fa fa-info fa-lg"></span> Job Seekers</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#" style="color:black"><span class="fa fa-info fa-lg"></span> Job Seekers</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="#" style="color:black"> <span class="fa fa-list fa-lg"></span>Post A Job</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="./contactus.html" style="color:black"><span class="fa fa-address-card fa-lg"></span> Contact Us</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#" style="color:black"><span class="fa fa-address-card fa-lg"></span> Contact Us</a> </li>
                 </ul>
                 <span class="navbar-text">
                     <a role="button" class="badge badge-pill badge-primary" id="login" >
@@ -77,11 +81,10 @@
                 </div>
             </div>
             <div class="row row-header"> 
-                <div class="col-12 col-sm-1"> </div>  
+                <div class="col-12 col-sm-3"></div>
                 <div class="col-12 col-sm-6"> 
-                    <img src="img/urn5.png" height="30px" width="700px" style = "margin-top: 50px; margin-left: 70px;" opacity="0.5">
+                    <img src="img/urn5.png" height="30px" width="100%" style = "margin-top: 50px;" opacity="0.5">
                 </div> 
-                <div class="col-12 col-sm-2"></div>
             </div>
         </div> 
     </header>
@@ -92,7 +95,8 @@
     <div class="container" style="margin-top: 30px;"> 
         <!-- row1 -->
         <div class="row row-header"> 
-            <div class="card col-12 col-sm-3" style="margin-right: 30px; margin-left: 100px;"> 
+            <div class="col-12 col-sm-1"> </div>
+            <div class="card col-12 col-sm-3" style="margin-right: 30px;"> 
                 <div class="card-header" style="background-color: transparent;">
                     <div class="col-1"> 
                         <img src="img/urn6.png">
@@ -143,7 +147,8 @@
         </div>
         <!-- row2 -->
         <div class="row row-header"> 
-            <div class="card col-12 col-sm-3" style="margin-right: 30px; margin-left: 100px; margin-top: 30px;"> 
+            <div class="col-12 col-sm-1"> </div>
+            <div class="card col-12 col-sm-3" style="margin-right: 30px; margin-top: 30px;"> 
                 <div class="card-header" style="background-color: transparent;">
                     <div class="col-1"> 
                         <img src="img/urn9.png">
@@ -196,7 +201,8 @@
         <div id="dots"></div>
         <div id="mor">
             <div class="row row-header">  
-                <div class="card col-12 col-sm-3" style="margin-right: 30px; margin-left: 100px;margin-top: 30px;"> 
+                <div class="col-12 col-sm-1"> </div>
+                <div class="card col-12 col-sm-3" style="margin-right: 30px; margin-top: 30px;"> 
                     <div class="card-header" style="background-color: transparent;">
                         <div class="col-1"> 
                             <img src="img/urn6.png">
@@ -247,7 +253,7 @@
             </div> 
         </div> 
         <div class="row row-header justify-content-center"> 
-            <a role="button" class="badge badge-pill badge-dark" onclick="myFunction()" id="myBtn" >
+            <a role="button" class="badge badge-pill badge-dark" style="width: 118px;" onclick="myFunction()" id="myBtn" >
                 <span class="fa fa-sign-in"></span> See All Categories
             </a>
         </div>  
@@ -263,11 +269,11 @@
                         <br>
                         <p style="color:#747474; font-size: 13px;">Loren ipsum dolor sit amet, consetetur sadipscing elitr, 
                             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                        At vero eos et justo duo doloreset ea.</p>
+                        At vero eos et justo duo dolores et ea.</p>
                     </div>
                 </div>
                 <div class="row offset-1"> 
-                    <a role="button" class="badge badge-pill badge-dark" id="login" >
+                    <a role="button" class="badge badge-pill badge-dark" style="width: 82px;" id="login" >
                         <span class="fa fa-sign-in"></span> Register Now
                     </a>
                 </div>
@@ -277,101 +283,173 @@
             </div>
         </div>
     </div>
-    <container> 
-        <div class="row row-header">
+    <div class = "container">
+        <div class="row row-content" style="padding-left: 45px; padding-right: 75px;">
             <div class="col">
                 <div id="mycarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
-
-                        <div class="carousel-item active" style="padding: 100px; height: 500px;">
+                        
+                        <div class="carousel-item active" style="height: 360px;  background-color: white;">
                             <img class="d-block img-fluid"
-                                src="img/urn13.png" alt="Uthappizza" height = "671px" width="671px">
+                                src="img/urn13.png" height="5%" width="33%" style="top: 4%; left: 4%;">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
-                                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-                                    Italian pizza, topped with Cerignola olives, ripe vine
-                                    cherry tomatoes, Vidalia onion, Guntur chillies and
-                                    Buffalo Paneer.</p>
+                                <h1 style="text-align: left; color: black;">What's our</h1>
+                                <h1 style="text-align: left;color: black;">Jobseekers Said.</h1>
+                                <br>
+                                <p class="d-none d-sm-block" style="text-align: left;color:#747474;">Loren ipsum dolor sit amet, consetetur sadipscing elitr, 
+                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                At vero eos et justo duo dolores.</p>
+                                <h4 style="text-align: left; color: black;"> Erick Shannon </h4>
+                                <h6 style="text-align: left; color: #747474;"> React Developer </h6>
+
                             </div>
                         </div>
-
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="img/buffet.png" alt="Buffet">
+                        
+                        <div class="carousel-item" style="height: 360px;  background-color: white;">
+                            <img class="d-block img-fluid"
+                                src="img/urn13.png" height="300px" width="300px" style="top: 28px; left: 40px;">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
-                                <p class="d-none d-sm-block"> Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, 
-                                six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p> 
+                                <h1 style="text-align: left; color: black;">What's our</h1>
+                                <h1 style="text-align: left;color: black;">Jobseekers Said.</h1>
+                                <br>
+                                <p class="d-none d-sm-block" style="text-align: left;color:#747474;">Loren ipsum dolor sit amet, consetetur sadipscing elitr, 
+                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                At vero eos et justo duo dolores.</p>
+                                <h4 style="text-align: left; color: black;"> Erick Shannon </h4>
+                                <h6 style="text-align: left; color: #747474;"> React Developer </h6>
+
                             </div>
                         </div>
-
-                        <div class="carousel-item ">
-                            <img class="d-block img-fluid"  src="img/alberto.png" alt="Alberto Somayya">
+                        
+                        <div class="carousel-item" style="height: 360px;  background-color: white;">
+                            <img class="d-block img-fluid"
+                                src="img/urn13.png" height="300px" width="300px" style="top: 28px; left: 40px;">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Alberto Somayya</h2>
-                                <h4>Executive Chef</h4>
-                                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-                                    International experience having worked closely with
-                                    whos-who in the culinary world, he specializes in
-                                    creating mouthwatering Indo-Italian fusion experiences.
-                                </p>    
-                            </div> 
+                                <h1 style="text-align: left; color: black;">What's our</h1>
+                                <h1 style="text-align: left;color: black;">Jobseekers Said.</h1>
+                                <br>
+                                <p class="d-none d-sm-block" style="text-align: left;color:#747474;">Loren ipsum dolor sit amet, consetetur sadipscing elitr, 
+                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                At vero eos et justo duo dolores.</p>
+                                <h4 style="text-align: left; color: black;"> Erick Shannon </h4>
+                                <h6 style="text-align: left; color: #747474;"> React Developer </h6>
+
+                            </div>
                         </div>
                     </div>
-
-                    <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="1"></li>
-                        <li data-target="#mycarousel" data-slide-to="2"></li>
-                    </ol>
                     <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
+                        <img src="img/urn16.png" style="padding-right: 8px; padding-top: 15px;">
                     </a>
                     <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
+                        <img  src="img/urn15.png" style="padding-top: 15px;">
                     </a>
-
                 </div>
             </div>
         </div>
-    </container>
+
+    <div class="container" style="height: 250px; width: 75%; background-color: #FAB8C4; border-radius: 200px; margin-top: 60px; margin-bottom: 60px;"> 
+        <div class="row row-header"> 
+            <div class="col"> 
+                <br>
+                <h1 class="text-center" style="color: white;"> Subscribe to our Newsletter <br>
+                    for the weekly updates.</h1>
+            </div>
+        </div>
+        <br><br>
+        <div class="row row-header"> 
+            <div class="col-12 col-sm-3"></div>
+            <div class="col-12 col-sm-6" style="background-color: white; padding-top: 5px; padding-bottom: 5px;border-radius: 50px;">
+                <div id="sb-search" class="sb-search">
+                    <div class="search-wrapper">
+                        <img class="search-pic"src="img/urn14.png"/>
+                        <input class="search-input" style="border: none;" placeholder="Enter your email address" type="text" value="" name="search" id="search"/>
+                        <a role="button" class="badge badge-pill badge-dark" id="login" >
+                            <span class="fa fa-sign-in"></span> Subscribe
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
-        <div>
-            <div>             
-                <div>
-                    <h5>Links</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+        <div class="container">
+            <div class="row" style="background-color: #1B2E3D;padding: 50px;">             
+                <div class="col-5 col-sm-2">  
+                    <h5 style="color: #FFFFFF;">Categories</h5>
+                    
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: #FFFFFF; font-size: 14px;">Content Writer</a></li>
+                        <li><a href="#" style="color: #FFFFFF; font-size: 14px;">Backend Developer</a></li>
+                        <li><a href="#" style="color: #FFFFFF; font-size: 14px;">Creative Director</a></li>
+                        <li><a href="#" style="color: #FFFFFF; font-size: 14px;">UI/UX Designer</a></li>
+                        <span id="dot1"></span>
+                        <span id="mor1">
+                            <li><a href="#" style="color: #FFFFFF; font-size: 14px;">Creative Director</a></li>
+                            <li><a href="#" style="color: #FFFFFF; font-size: 14px;">UI/UX Designer</a></li>
+                        </span>
+                        <a onclick="myFun()" id="myBtn1" style="color:#FFDA55;">More...</a>
+                        <script>
+                            function myFun() {
+                              var dot1 = document.getElementById("dot1");
+                              var moreText = document.getElementById("mor1");
+                              var btnText = document.getElementById("myBtn1");
+                            
+                              if (dot1.style.display === "none") {
+                                dot1.style.display = "inline";
+                                btnText.innerHTML = "More..."; 
+                                moreText.style.display = "none";
+                              } else {
+                                dot1.style.display = "none";
+                                btnText.innerHTML = "Less..."; 
+                                moreText.style.display = "inline";
+                              }
+                            }
+                            </script>
                     </ul>
                 </div>
-                <div>
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                <div class="col col-sm-2">
+                    <h5 style="color: #FFFFFF;">Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: #FFFFFF; font-size: 14px;">Contact & Support</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">Application</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">FAQ</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">Careers</a></li>
+                    </ul>
                 </div>
-                <div>
-                    <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                <div class="col-5 col-sm-2">  
+                    <h5 style="color: #FFFFFF;">Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">About us</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">Job Seminar</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">Blog</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">News</a></li>
+                    </ul>
+                </div>
+                <div class="col col-sm-2">
+                    <h5 style="color: #FFFFFF;">Legals</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">Copyrights</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">Privacy Policy</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">Disclaimer</a></li>
+                        <li><a href="#" style="color: #FFFFFF;font-size: 14px;">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="text">
+                        <a href="#"><h2 style="color:#FFDA55;">DREAMJOB.</h2></a>
+                        <p style="color: #FFFFFF; font-size: 12px;">
+                            Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+                        </p>
+                        <a href="#"><img src="img/twitter.svg"></a>
+                        <a href="#"><img src="img/google plus.svg" style="padding-left: 20px; padding-right: 20px;"></a>
+                        <a href="#"><img src="img/facebook.svg"></a>
                     </div>
                 </div>
            </div>
-           <div>             
-                <div>
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+           <div class="row justify-content-center" style="background-color: #101E2A;">             
+                <div class="col-auto" style="color: #FFFFFF; padding-top: 10px;">
+                    <p>Copyright © 2020 DREAMJOB. All rights reserved.</p>
                 </div>
            </div>
         </div>
